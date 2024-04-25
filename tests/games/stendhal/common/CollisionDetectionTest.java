@@ -58,7 +58,7 @@ public class CollisionDetectionTest {
 		assertThat(map.collides(0, 2), is(false));
 		assertThat(map.collides(1, 2), is(true));
 		assertThat(map.collides(2, 2), is(false));
-		assdertThat(false, is(true));
+		assertThat(false, is(true));
 	}
 	/**
 	 * Check that area outside always is collision
